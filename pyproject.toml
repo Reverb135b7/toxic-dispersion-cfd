@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toxic-dispersion"
+version = "0.1.0"
+description = "Toxic Industrial Release Dispersion Modeling Package"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "geopandas>=0.12.0",
+    "shapely>=2.0.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "streamlit>=1.28.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["toxic_dispersion*"]
+
+[project.scripts]
+toxic-dispersion = "toxic_dispersion.dashboard:main"

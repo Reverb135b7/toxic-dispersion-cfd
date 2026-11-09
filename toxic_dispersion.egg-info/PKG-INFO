@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: toxic-dispersion
+Version: 0.1.0
+Summary: Toxic Industrial Release Dispersion Modeling Package
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: geopandas>=0.12.0
+Requires-Dist: shapely>=2.0.0
+Requires-Dist: matplotlib>=3.7.0
+Requires-Dist: seaborn>=0.12.0
+Requires-Dist: streamlit>=1.28.0

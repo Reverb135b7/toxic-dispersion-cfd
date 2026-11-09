@@ -1,0 +1,44 @@
+{
+    "ammonia": {
+        "mw": 17.031,
+        "t_bp": -33.34,
+        "delta_h_vap": 23.35e3,
+        "cp_l": 4.7,
+        "rho_l_20": 681.0,
+        "p_sat_a": 61.7,
+        "p_sat_b": 13.28,
+        "p_sat_c": -5.2,
+        "ergp_1": 25.0,
+        "ergp_2": 150.0,
+        "ergp_3": 3400.0,
+        "description": "Anhydrous Ammonia (NH3)"
+    },
+    "chlorine": {
+        "mw": 70.906,
+        "t_bp": -34.05,
+        "delta_h_vap": 20.28e3,
+        "cp_l": 0.48,
+        "rho_l_20": 1639.0,
+        "p_sat_a": 12.0,
+        "p_sat_b": 2.75,
+        "p_sat_c": -3.8,
+        "ergp_1": 0.5,
+        "ergp_2": 2.0,
+        "ergp_3": 10.0,
+        "description": "Chlorine (Cl2)"
+    },
+    "hydrogen_sulfide": {
+        "mw": 34.081,
+        "t_bp": -60.0,
+        "delta_h_vap": 18.60e3,
+        "cp_l": 1.36,
+        "rho_l_20": 968.0,
+        "p_sat_a": 5.8,
+        "p_sat_b": 1.5,
+        "p_sat_c": -2.5,
+        "ergp_1": 10.0,
+        "ergp_2": 50.0,
+        "ergp_3": 100.0,
+        "description": "Hydrogen Sulfide (H2S)"
+    }
+}
