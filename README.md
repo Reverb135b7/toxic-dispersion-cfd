@@ -160,23 +160,23 @@ Each chemical includes: MW, bp, ΔH_vap, cp_l, ρ_l_20, Antoine parameters, and 
 
 ## Implementation Roadmap
 
-### Phase 1: Source-Term & Thermodynamics Core ✅ (Weeks 1-2)
+### Phase 1: Source-Term & Thermodynamics Core  (Weeks 1-2)
 - Flash calculation & pool spreading solver in Python
 - Dynamic vapor generation rate $\dot{m}_{release}(t)$
 - **Jet momentum flash fraction calculation**
 
-### Phase 2: Heavy-Gas & Gaussian Dispersion Engine ✅ (Weeks 3-5)
+### Phase 2: Heavy-Gas & Gaussian Dispersion Engine  (Weeks 3-5)
 - Gaussian plume/puff analytical & 2D finite-difference PDE solver
 - Pasquill-Gifford stability classes (A–F) to dispersion parameters
 - Probit mortality calculations
 - **ADI PDE solver implementation**
 
-### Phase 3: Spatial GIS Heatmap & Consequence Mapping ✅ (Weeks 6-7)
+### Phase 3: Spatial GIS Heatmap & Consequence Mapping  (Weeks 6-7)
 - Concentration matrices into spatial GeoJSON/PySAL coordinate grids
 - ERPG (ERPG-1, ERPG-2, ERPG-3) threshold contours
 - Geospatial contour visualization
 
-### Phase 4: Streamlit Interactive Hazard Dashboard ✅ (Week 8)
+### Phase 4: Streamlit Interactive Hazard Dashboard (Week 8)
 - Interactive UI controls (wind speed, stability class, release diameter, chemical selector)
 - Dynamic downwind plume footprint and lethality radius
 - Dashboard framework complete
